@@ -521,7 +521,7 @@ function voltarAoMenu() {
     TRANSICAO.classList.add("FECHAR");
 
     setTimeout(function() {
-        window.location.href = "MENU.html";
+        window.location.href = "index.html";
     }, 500);
 }
 
