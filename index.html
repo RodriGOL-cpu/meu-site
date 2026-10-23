@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCITANDO A MENTE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="MENU">
+        <div class="MENU-FUNDO">
+            <div class="MENU-TITULO"></div>
+
+            <div class="MENU-PAINEL-BOTOES">
+                <button class="MENU-BOTAO-JOGAR" type="button" aria-label="Jogar">JOGAR</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="SELECAO-NIVEL" hidden>
+        <section class="SELECAO-NIVEL-PAINEL" role="dialog" aria-modal="true" aria-labelledby="SELECAO-NIVEL-TITULO">
+            <h1 id="SELECAO-NIVEL-TITULO">ESCOLHA O DESAFIO</h1>
+            <div class="SELECAO-NIVEL-BOTOES">
+                <button class="SELECAO-NIVEL-BOTAO" id="NIVEL-FACIL" type="button">
+                    <span class="NIVEL-FACIL">NÍVEL FÁCIL</span>
+                    <span class="NIVEL-ESTRELAS" id="ESTRELAS-NIVEL-FACIL" aria-label="Nenhuma estrela conquistada">☆☆☆</span>
+                </button>
+                <button class="SELECAO-NIVEL-BOTAO" id="NIVEL-MEDIO" type="button">
+                    <span class="NIVEL-MEDIO">NÍVEL MÉDIO</span>
+                    <span class="NIVEL-ESTRELAS" id="ESTRELAS-NIVEL-MEDIO" aria-label="Nenhuma estrela conquistada">☆☆☆</span>
+                </button>
+                <button class="SELECAO-NIVEL-BOTAO" id="NIVEL-DIFICIL" type="button">
+                    <span class="NIVEL-DIFICIL">NÍVEL DIFÍCIL</span>
+                    <span class="NIVEL-ESTRELAS" id="ESTRELAS-NIVEL-DIFICIL" aria-label="Nenhuma estrela conquistada">☆☆☆</span>
+                </button>
+                <button class="SELECAO-NIVEL-BOTAO" id="NIVEL-SUPER-DIFICIL" type="button">
+                    <span class="NIVEL-SUPER-DIFICIL">SUPER DIFÍCIL</span>
+                    <span class="NIVEL-ESTRELAS" id="ESTRELAS-NIVEL-SUPER-DIFICIL" aria-label="Nenhuma estrela conquistada">☆☆☆</span>
+                </button>
+            </div>
+            <button id="VOLTAR-SELECAO" type="button">VOLTAR</button>
+        </section>
+    </div>
+
+    <div id="TRANSICAO"></div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
