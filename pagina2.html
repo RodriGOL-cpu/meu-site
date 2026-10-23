@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCITANDO A MENTE</title>
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="TRANSICAO"></div>
+
+    <div id="JOGO">
+        <div class="JOGO-FUNDO">
+            <div id="JOGO-BLUR"></div>
+
+            <div class="JOGO-PAINEL-PERGUNTAS">
+                <div id="JOGO-LOCAL-DIFICULDADE">
+                    <h2>DIFICULDADE</h2>
+                </div>
+
+                <div id="JOGO-LOCAL-TEMA">
+                    <h2>TEMA</h2>
+                </div>
+
+                <h3 id="JOGO-LOCAL-PERGUNTAS">A pergunta vai aparecer aqui.</h3>
+
+                <div class="JOGO-LOCAL-IMAGEM">
+                    <div id="JOGO-IMAGEM-OU-DESAFIO"></div>
+                </div>
+            </div>
+
+            <div class="JOGO-PAINEL-RESPOSTAS">
+                <div class="JOGO-TITULO-PAINEL-RESPOSTAS">
+                    <b>RESPOSTAS</b>
+                </div>
+
+                <button class="LOCAL-RESPOSTA-A" type="button" data-alternativa="A)">
+                    <div id="RESPOSTA-A">
+                        <div class="RESPOSTA-IMAGEM" id="IMAGEM-RESPOSTA-A"></div>
+                        <span class="RESPOSTA-TEXTO"></span>
+                    </div>
+                </button>
+
+                <button class="LOCAL-RESPOSTA-B" type="button" data-alternativa="B)">
+                    <div id="RESPOSTA-B">
+                        <div class="RESPOSTA-IMAGEM" id="IMAGEM-RESPOSTA-B"></div>
+                        <span class="RESPOSTA-TEXTO"></span>
+                    </div>
+                </button>
+
+                <button class="LOCAL-RESPOSTA-C" type="button" data-alternativa="C)">
+                    <div id="RESPOSTA-C">
+                        <div class="RESPOSTA-IMAGEM" id="IMAGEM-RESPOSTA-C"></div>
+                        <span class="RESPOSTA-TEXTO"></span>
+                    </div>
+                </button>
+
+                <button class="LOCAL-RESPOSTA-D" type="button" data-alternativa="D)">
+                    <div id="RESPOSTA-D">
+                        <div class="RESPOSTA-IMAGEM" id="IMAGEM-RESPOSTA-D"></div>
+                        <span class="RESPOSTA-TEXTO"></span>
+                    </div>
+                </button>
+            </div>
+
+            <div class="JOGO-PAINEL-BOTOES-FUNCAO">
+                <button id="JOGO-BOTAO-PARAR" type="button" aria-label="Voltar ao menu">||</button>
+                <button id="JOGO-BOTAO-CONTINUAR" type="button" aria-label="Continuar">→</button>
+            </div>
+
+            <div id="JOGO-RESULTADO">
+                <button id="JOGO-RESULTADO-MENU" type="button" aria-label="Voltar ao menu"></button>
+                <h1>RESULTADO</h1>
+
+                <h2 id="JOGO-RESULTADOS-CERTOS">CERTAS: 0</h2>
+                <h2 id="JOGO-RESULTADOS-ERRADOS">ERRADAS: 0</h2>
+
+                <div id="JOGO-RESULTADO-ESTRELAS"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
